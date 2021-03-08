@@ -1,0 +1,126 @@
+body {
+    background-image: url(https://i.imgur.com/twhHYjF.png);
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: auto;
+    margin: 0px;
+}
+
+.white-text {
+    color: white;
+    text-align: center;
+    margin: 0px;
+}
+
+h1 {
+    padding-top: 200px;
+}
+
+.left-side {
+    text-align: left;
+    color: rgba(255, 255, 255, 0.767);
+    font-size: 250%;
+    margin: 0px;
+    display: flex;
+    float: left;
+    flex-wrap: wrap;
+    width: 64%;
+    padding-bottom: 118px;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.right-side {
+    text-align: right;
+    color: rgba(255, 255, 255, 0.767);
+    font-size: 250%;
+    margin: 0px;
+    display: flex;
+    float: right;
+    flex-wrap: wrap-reverse;
+    width: 67%;
+    padding-bottom: 170px;
+    padding-right: 40px;
+    padding-top: 20px;
+    }
+
+#red {
+    color: rgb(194, 33, 4);
+    padding-top: 10px;
+    margin-left: 20px;
+    display: flex;
+    float: left;
+}
+
+.container {
+    margin-top: 30px;
+    text-align: center;
+}
+
+section {
+    margin-top: 15%;
+}
+
+input[type=text] {
+    width: 30%;
+    padding: 0px;
+    margin: auto;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    text-align: center;
+    display: inline-block;
+  }
+
+input[type=submit] {
+    text-align: center;
+    margin: auto;
+    display: inline-block;
+}
+
+.authLinks.redButton {
+    background-color: #e50914;
+    line-height: normal;
+    padding: 7px 17px;
+    font-weight: 400;
+    font-size: 1rem;
+    float: right;
+    display: flex;
+    margin-top: 30px;
+    color: white;
+}
+
+img {
+    padding: 0px;
+    margin: 0px;
+}
+
+/*border inbetween will have top and bottom size*/
+.info-row {
+    background-color: black;
+    text-align: center;
+    border: solid 1px #474747;
+    border-width: 3px 0px;
+    min-height: 300px;
+}
+
+.faq {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.767);
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    margin: 0px;
+
+}
+
+.no-m {
+    margin: 0px;
+    padding-bottom: 10px;
+}
+
+div.faq p {
+    background-color: grey;
+    width: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
